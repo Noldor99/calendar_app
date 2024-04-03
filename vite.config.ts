@@ -10,5 +10,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/calendat_react_toolkid/",
+  base: "/calendar_app/",
 })

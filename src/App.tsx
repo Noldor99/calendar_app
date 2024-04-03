@@ -9,7 +9,7 @@ function App() {
     <React.Suspense fallback={<div>Loading...</div>}>
       <Routes>
         <Route path="/" element={<LayoutWrapper />}>
-          <Route path="/calendat_react_toolkid" element={<Home />} />
+          <Route path="/calendar_app" element={<Home />} />
         </Route>
         <Route path="*" element={<NotFoundBlock />} />
       </Routes>
